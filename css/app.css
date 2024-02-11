@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f0f0f0;
   }
-  .container {
+  .container-calculator-imc {
     max-width: 600px;
     margin: 20px auto;
     background-color: #fff;
@@ -12,17 +12,17 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-  .form-group {
+  .form-group-calculator-imc {
     margin-bottom: 20px;
   }
-  .form-group label {
+  .form-group-calculator-imc label {
     display: block;
     font-weight: bold;
   }
 .container-h2{
     text-align: center;
 }
-  .form-group input, .form-group select {
+  .form-group-calculator-imc input, .form-group-calculator-imc select {
     width: calc(100% - 22px);
     padding: 10px;
     border: 1px solid #ccc;
@@ -31,17 +31,41 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
   }
-  .form-group input[type="checkbox"] {
+  .form-group-calculator-imc input[type="checkbox"] {
     width: auto;
   }
-  .form-group input[type="submit"] {
-    background-color: #007bff;
+  .form-group-calculator-imc input[type="submit"] {
+    background-color: #42e3f5;
     color: #fff;
     border: none;
-    border-radius: 5px;
+
     padding: 10px 20px;
     cursor: pointer;
   }
-  .form-group input[type="submit"]:hover {
-    background-color: #0056b3;
+  .form-group-calculator-imc input[type="submit"]:hover {
+    
+    background-color: blue !important;
+    color: white !important;
   }
+  .form-group-calculator-imc input[type="button"] {
+    border: 3px solid #42e3f5;
+    cursor: pointer;
+    border-radius: 30px !important;
+    background-color: white;
+  }
+  .form-group-calculator-imc input[type="button"]:hover{
+    background-color: blue !important;
+    color: white !important;
+  }
+
+  .form-group-calculator-imc input, 
+  .form-group-calculator-imc-input-checkbox {
+    font-size: 20px;
+  }
+
+  .calculator-imc-btn-radius{
+    border-radius: 20px !important;
+    color: black !important;
+    font-weight: bold;
+  }
+ 
