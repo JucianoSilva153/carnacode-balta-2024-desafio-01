@@ -91,3 +91,38 @@ input::placeholder {
     margin: 3px 0px;
     margin-bottom: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 600px) {
+    .history {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .history .container {
+        width: 60%;
+    }
+
+    .head .logo {
+        width: 10%;
+    }
+
+    .history .container .cardLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+    .head {
+        margin: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}
